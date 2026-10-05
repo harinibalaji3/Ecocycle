@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Home | EcoCycle</title>
+  <meta name="description" content="EcoCycle waste collection and recycling platform: Home.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Instrument+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+  <header class="site-header">
+    <div class="wrap header-wrap">
+      <a href="index.html" class="logo">
+        <img src="assets/logo.png" alt="Brand Logo" width="38" height="38">
+        <span class="logo-text">EcoCycle</span>
+      </a>
+      <nav class="nav-container">
+        <div class="nav-menu-drawer" id="navMenuDrawer">
+          <ul class="nav-links">
+            <li><a href="index.html" class="is-active">Home</a></li>
+            <li><a href="home-niche.html">Home 2</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <div class="header-actions">
+            <button class="icon-btn theme-toggle" id="themeToggleBtn" aria-label="Toggle Dark/Light Mode" title="Toggle Theme">
+              <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+              <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+            </button>
+            <button class="pill-toggle-btn rtl-toggle" id="rtlToggleBtn" aria-label="Toggle RTL Direction">RTL</button>
+            <div class="profile-dropdown-wrapper">
+              <button class="icon-btn profile-btn" id="profileDropdownBtn" aria-label="User Account Menu">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+              </button>
+              <div class="profile-dropdown-menu" id="profileDropdownMenu">
+                <div class="dropdown-header"><h4>EcoCycle</h4>Reduse Reuse Recycle</div>
+                <ul class="dropdown-links">
+                  <li><a href="login.html">Login</a></li>
+                  <li><a href="login.html">Signup</a></li>
+                  <li><a href="dashboard.html">User Dashboard</a></li>
+                  <li><a href="admin-dashboard.html">Admin Dashboard</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="nav-toggle" id="navToggleBtn" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-photo" style="--bgimg:url('https://images.unsplash.com/photo-1773852184074-e7ecb1dd3665?auto=format&fit=crop&w=1800&q=70')">
+      <div class="wrap">
+        <div class="hero-card">
+          <span class="tag">Doorstep waste pickup</span>
+          <h1>Waste handled responsibly, from your door to the recycler</h1>
+          <p>Schedule pickups, sort what you throw away, and earn eco-points for everything that gets a second life.</p>
+          <div class="row"><a class="btn" href="schedule-pickup.html">Schedule a pickup</a><a class="btn o" href="recycling-guide.html">Recycling guide</a></div>
+        </div>
+      </div>
+    </section>
+    <div class="wrap quick">
+      <a href="schedule-pickup.html"><span class="q-ic"><i data-i="calendar"></i></span><span><b>Schedule a pickup</b><small>Pick a date and slot</small></span><i data-i="arrow"></i></a>
+      <a href="recycling-guide.html"><span class="q-ic"><i data-i="recycle"></i></span><span><b>Recycling guide</b><small>What goes in which bin</small></span><i data-i="arrow"></i></a>
+      <a href="eco-rewards.html"><span class="q-ic"><i data-i="gift"></i></span><span><b>Eco rewards</b><small>Earn points on every kilo</small></span><i data-i="arrow"></i></a>
+    </div>
+    <section class="sec">
+      <div class="wrap">
+        <div class="split">
+          <div>
+            <h2>A local service with a simple job</h2>
+            <p class="mu">EcoCycle connects households with trained collection crews and certified recycling partners.</p>
+            <ul class="chk" style="padding:0;margin-top:14px">
+              <li><i data-i="check"></i><span>Doorstep collection across 40 service areas</span></li>
+              <li><i data-i="check"></i><span>Separate bins for recyclable, electronic and bulk waste</span></li>
+              <li><i data-i="check"></i><span>Receipts for every kilo collected</span></li>
+            </ul>
+          </div>
+          <img src="https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?auto=format&fit=crop&w=900&q=70" alt="A local service with a simple job" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section class="sec">
+      <div class="wrap">
+        <h2>What we collect</h2>
+        <div class="grid">
+          <div class="card" data-cat="household">
+            <img src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=900&q=70" alt="Household waste" loading="lazy">
+            <h3>Household waste</h3>
+            <p>Weekly doorstep collection of mixed household waste.</p>
+            <a class="m" href="service-details.html">View details <i data-i="arrow"></i></a>
+          </div>
+          <div class="card" data-cat="recyclable">
+            <img src="https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?auto=format&fit=crop&w=900&q=70" alt="Recyclable waste" loading="lazy">
+            <h3>Recyclable waste</h3>
+            <p>Paper, plastic, glass and metal sorted and processed.</p>
+            <a class="m" href="service-details.html">View details <i data-i="arrow"></i></a>
+          </div>
+          <div class="card" data-cat="electronic">
+            <img src="https://images.unsplash.com/photo-1558640476-437a2b9438a2?auto=format&fit=crop&w=900&q=70" alt="Electronic waste" loading="lazy">
+            <h3>Electronic waste</h3>
+            <p>Safe pickup of old phones, laptops and appliances.</p>
+            <a class="m" href="service-details.html">View details <i data-i="arrow"></i></a>
+          </div>
+          <div class="card" data-cat="bulk">
+            <img src="https://images.unsplash.com/photo-1530587191325-3db32d826c18?auto=format&fit=crop&w=900&q=70" alt="Bulk waste" loading="lazy">
+            <h3>Bulk waste</h3>
+            <p>Furniture, mattresses and renovation debris removed on request.</p>
+            <a class="m" href="service-details.html">View details <i data-i="arrow"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec alt">
+      <div class="wrap">
+        <h2>Why choose us</h2>
+        <div class="grid">
+          <div class="card" data-cat="">
+            <i data-i="truck"></i>
+            <h3>Reliable pickups</h3>
+            <p>Fixed slots with live status updates.</p>
+          </div>
+          <div class="card" data-cat="">
+            <i data-i="gift"></i>
+            <h3>Eco-points</h3>
+            <p>Earn points on every recyclable kilo.</p>
+          </div>
+          <div class="card" data-cat="">
+            <i data-i="chart"></i>
+            <h3>Impact tracking</h3>
+            <p>See the carbon you saved each month.</p>
+          </div>
+          <div class="card" data-cat="">
+            <i data-i="shield"></i>
+            <h3>Responsible disposal</h3>
+            <p>Every load is weighed and traced.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec">
+      <div class="wrap">
+        <h2 class="ctr">Our impact so far</h2>
+        <div class="grid stats">
+          <div class="stat"><b>48,000+</b><span class="mu">households served</span></div>
+          <div class="stat"><b>1,200 t</b><span class="mu">waste recycled</span></div>
+          <div class="stat"><b>62%</b><span class="mu">less landfill per household</span></div>
+          <div class="stat"><b>40</b><span class="mu">service areas</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec alt">
+      <div class="wrap">
+        <h2 class="ctr">What residents say</h2>
+        <div class="grid">
+          <div class="card">
+            <p class="q">Pickups are on time and the app tells me exactly where my plastic went.</p>
+            <div class="who">
+              <img src="https://images.unsplash.com/photo-1530587191325-3db32d826c18?auto=format&fit=crop&w=900&q=70" alt="Anita R." loading="lazy">
+              <b>Anita R.</b>
+            </div>
+          </div>
+          <div class="card">
+            <p class="q">Our apartment block cut landfill waste by a third in four months.</p>
+            <div class="who">
+              <img src="https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?auto=format&fit=crop&w=900&q=70" alt="Karthik S." loading="lazy">
+              <b>Karthik S.</b>
+            </div>
+          </div>
+          <div class="card">
+            <p class="q">I redeem eco-points on my electricity bill. It actually works.</p>
+            <div class="who">
+              <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=900&q=70" alt="Meera D." loading="lazy">
+              <b>Meera D.</b>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec">
+      <div class="wrap">
+        <div class="cta">
+          <h2>Ready for a cleaner street?</h2>
+          <p>Book your first pickup in under two minutes.</p>
+          <a class="btn" href="schedule-pickup.html">Schedule a pickup</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div id="ftr"></div>
+  <script src="js/main.js"></script><script src="js/header.js"></script>
+</body>
+</html>

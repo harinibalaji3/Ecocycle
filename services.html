@@ -1,0 +1,66 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Services | EcoCycle</title><meta name="description" content="EcoCycle waste collection and recycling platform: Services."><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Instrument+Sans:wght@400;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="css/style.css"></head><body>
+    
+     <header class="site-header">
+        <div class="wrap header-wrap">
+      <a href="index.html" class="logo">
+        <img src="assets/logo.png" alt="Brand Logo" width="38" height="38">
+        <span class="logo-text">EcoCycle</span>
+      </a>
+      
+      <nav class="nav-container">
+        <!-- MAIN NAVIGATION DRAWER -->
+        <div class="nav-menu-drawer" id="navMenuDrawer">
+          <ul class="nav-links">
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="home-niche.html">Home 2</a></li>
+            <li><a href="about.html"  >About</a></li>
+            <li><a href="services.html" class="is-active">Services</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+
+          <!-- DESKTOP ACTIONS / MOBILE DRAWER CONTROLS -->
+          <div class="header-actions">
+            <!-- Dark/Light Theme Toggle -->
+            <button class="icon-btn theme-toggle" id="themeToggleBtn" aria-label="Toggle Dark/Light Mode" title="Toggle Theme">
+              <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+              <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+            </button>
+
+            <!-- RTL / LTR Toggle -->
+            <button class="pill-toggle-btn rtl-toggle" id="rtlToggleBtn" aria-label="Toggle RTL Direction">RTL</button>
+
+            <!-- PROFILE ICON WITH DROPDOWN MENU -->
+            <div class="profile-dropdown-wrapper">
+              <button class="icon-btn profile-btn" id="profileDropdownBtn" aria-label="User Account Menu">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+              </button>
+
+              <div class="profile-dropdown-menu" id="profileDropdownMenu">
+                <div class="dropdown-header">
+                  <h4>EcoCycle</h4>
+                  Reduse Reuse Recycle
+                </div>
+                <ul class="dropdown-links">
+                  <li><a href="login.html">Login</a></li>
+                  <li><a href="login.html">Signup</a></li>
+                  <li><a href="dashboard.html">User Dashboard</a></li>
+                  <li><a href="admin-dashboard.html">Admin Dashboard</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- HAMBURGER BUTTON (VISIBLE ONLY ON MOBILE) -->
+        <button class="nav-toggle" id="navToggleBtn" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+  </header><main><section class="page-hero" style="--bgimg:url('https://images.unsplash.com/photo-1722482445685-91a6b17d5d02?auto=format&fit=crop&w=1800&q=70')"><div class="wrap"><nav class="crumb" aria-label="Breadcrumb"><a href="index.html">Home</a><span>/</span><span>Services</span></nav><h1>Our services</h1><p>Choose a waste category and book a pickup. Every collection is weighed, sorted and recorded.</p><div class="hero-pills"><span><i data-i="truck"></i>Weekly pickups</span><span><i data-i="pin"></i>40 service areas</span><span><i data-i="gift"></i>Eco-points on every kilo</span></div></div><svg class="wave" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 60V30C240 0 480 0 720 25s480 30 720 5v30z" fill="currentColor"/></svg></section>
+<section class="sec"><div class="wrap"><div class="filter chips" role="group" aria-label="Filter services by category"><button class="tag on" data-c="all">All <small>9</small></button><button class="tag" data-c="household">Household <small>2</small></button><button class="tag" data-c="recyclable">Recyclable <small>3</small></button><button class="tag" data-c="electronic">Electronic <small>2</small></button><button class="tag" data-c="bulk">Bulk <small>2</small></button></div><div class="svc-grid"><article class="card svc" data-cat="household"><div class="svc-img"><img src="https://images.unsplash.com/photo-1722482445685-91a6b17d5d02?auto=format&fit=crop&w=900&q=70" alt="Household waste" loading="lazy"><span class="tag">Household</span><span class="svc-ic"><i data-i="home"></i></span></div><div class="body"><h3>Household waste</h3><p>Weekly doorstep collection of mixed household waste, in fixed time slots.</p><a class="m" href="service-details.html">View details <i data-i="arrow"></i></a></div></article><article class="card svc" data-cat="household"><div class="svc-img"><img src="https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?auto=format&fit=crop&w=900&q=70" alt="Organic waste" loading="lazy"><span class="tag">Household</span><span class="svc-ic"><i data-i="leaf"></i></span></div><div class="body"><h3>Organic waste</h3><p>Kitchen and garden waste collected separately and turned into compost.</p><a class="m" href="service-details.html">View details <i data-i="arrow"></i></a></div></article><article class="card svc" data-cat="recyclable"><div class="svc-img"><img src="https://images.unsplash.com/photo-1653406384710-08688ec6b979?auto=format&fit=crop&w=900&q=70" alt="Recyclable waste" loading="lazy"><span class="tag">Recyclable</span><span class="svc-ic"><i data-i="recycle"></i></span></div><div class="body"><h3>Recyclable waste</h3><p>Paper, plastic, glass and metal sorted, weighed and sent to certified recyclers.</p><a class="m" href="service-details.html">View details <i data-i="arrow"></i></a></div></article><article class="card svc" data-cat="recyclable"><div class="svc-img"><img src="https://images.unsplash.com/photo-1761807299731-da9bbef44b77?auto=format&fit=crop&w=900&q=70" alt="Office and shop recycling" loading="lazy"><span class="tag">Recyclable</span><span class="svc-ic"><i data-i="box"></i></span></div><div class="body"><h3>Office and shop recycling</h3><p>Cardboard, packaging and paper pickups on a contract for small businesses.</p><a class="m" href="service-details.html">View details <i data-i="arrow"></i></a></div></article><article class="card svc" data-cat="recyclable"><div class="svc-img"><img src="https://images.unsplash.com/photo-1785900976828-9d67c8b24134?auto=format&fit=crop&w=900&q=70" alt="Scrap metal" loading="lazy"><span class="tag">Recyclable</span><span class="svc-ic"><i data-i="trash"></i></span></div><div class="body"><h3>Scrap metal</h3><p>Old metal, utensils and fittings collected and sold on to metal recyclers.</p><a class="m" href="service-details.html">View details <i data-i="arrow"></i></a></div></article><article class="card svc" data-cat="electronic"><div class="svc-img"><img src="https://images.unsplash.com/photo-1767340078189-4258fbb7bd7c?auto=format&fit=crop&w=900&q=70" alt="Electronic waste" loading="lazy"><span class="tag">Electronic</span><span class="svc-ic"><i data-i="cpu"></i></span></div><div class="body"><h3>Electronic waste</h3><p>Safe pickup of old phones, laptops, chargers and small appliances.</p><a class="m" href="service-details.html">View details <i data-i="arrow"></i></a></div></article><article class="card svc" data-cat="electronic"><div class="svc-img"><img src="https://images.unsplash.com/photo-1773852184074-e7ecb1dd3665?auto=format&fit=crop&w=900&q=70" alt="Hazardous waste" loading="lazy"><span class="tag">Electronic</span><span class="svc-ic"><i data-i="shield"></i></span></div><div class="body"><h3>Hazardous waste</h3><p>Batteries, bulbs, paint and chemicals handled by trained staff.</p><a class="m" href="service-details.html">View details <i data-i="arrow"></i></a></div></article><article class="card svc" data-cat="bulk"><div class="svc-img"><img src="https://images.unsplash.com/photo-1783047531682-cce046b474a7?auto=format&fit=crop&w=900&q=70" alt="Bulk waste" loading="lazy"><span class="tag">Bulk</span><span class="svc-ic"><i data-i="truck"></i></span></div><div class="body"><h3>Bulk waste</h3><p>Furniture, mattresses and large items removed on request.</p><a class="m" href="service-details.html">View details <i data-i="arrow"></i></a></div></article><article class="card svc" data-cat="bulk"><div class="svc-img"><img src="https://images.unsplash.com/photo-1762608676460-5fd5aafa5ce1?auto=format&fit=crop&w=900&q=70" alt="Construction debris" loading="lazy"><span class="tag">Bulk</span><span class="svc-ic"><i data-i="pin"></i></span></div><div class="body"><h3>Construction debris</h3><p>Renovation rubble, tiles and timber cleared from your site.</p><a class="m" href="service-details.html">View details <i data-i="arrow"></i></a></div></article></div></div></section>
+<section class="sec alt"><div class="wrap"><div class="cta"><h2>Not sure which service you need?</h2><p>Tell us what you are throwing away and we will suggest the right pickup.</p><a class="btn" href="schedule-pickup.html">Schedule a pickup</a></div></div></section></main><div id="ftr"></div><script src="js/main.js"></script></body></html>

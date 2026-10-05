@@ -1,0 +1,63 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Blog | EcoCycle</title><meta name="description" content="EcoCycle waste collection and recycling platform: Blog."><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Instrument+Sans:wght@400;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="css/style.css"></head><body> <header class="site-header">
+    <div class="wrap header-wrap">
+      <a href="index.html" class="logo">
+        <img src="assets/logo.png" alt="Brand Logo" width="38" height="38">
+        <span class="logo-text">EcoCycle</span>
+      </a>
+      
+      <nav class="nav-container">
+        <!-- MAIN NAVIGATION DRAWER -->
+        <div class="nav-menu-drawer" id="navMenuDrawer">
+          <ul class="nav-links">
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="home-niche.html">Home 2</a></li>
+            <li><a href="about.html"  >About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="blog.html" class="is-active">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+
+          <!-- DESKTOP ACTIONS / MOBILE DRAWER CONTROLS -->
+          <div class="header-actions">
+            <!-- Dark/Light Theme Toggle -->
+            <button class="icon-btn theme-toggle" id="themeToggleBtn" aria-label="Toggle Dark/Light Mode" title="Toggle Theme">
+              <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+              <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+            </button>
+
+            <!-- RTL / LTR Toggle -->
+            <button class="pill-toggle-btn rtl-toggle" id="rtlToggleBtn" aria-label="Toggle RTL Direction">RTL</button>
+
+            <!-- PROFILE ICON WITH DROPDOWN MENU -->
+            <div class="profile-dropdown-wrapper">
+              <button class="icon-btn profile-btn" id="profileDropdownBtn" aria-label="User Account Menu">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+              </button>
+
+              <div class="profile-dropdown-menu" id="profileDropdownMenu">
+                <div class="dropdown-header">
+                  <h4>EcoCycle</h4>
+                  Reduse Reuse Recycle
+                </div>
+                <ul class="dropdown-links">
+                  <li><a href="login.html">Login</a></li>
+                  <li><a href="login.html">Signup</a></li>
+                  <li><a href="dashboard.html">User Dashboard</a></li>
+                  <li><a href="admin-dashboard.html">Admin Dashboard</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- HAMBURGER BUTTON (VISIBLE ONLY ON MOBILE) -->
+        <button class="nav-toggle" id="navToggleBtn" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+  </header><main><section class="page-hero" style="--bgimg:url('https://images.unsplash.com/photo-1653406384710-08688ec6b979?auto=format&fit=crop&w=1800&q=70')"><div class="wrap"><nav class="crumb" aria-label="Breadcrumb"><a href="index.html">Home</a><span>/</span><span>Blog</span></nav><h1>EcoCycle blog</h1><p>Practical advice on sorting, recycling and living with less waste.</p></div><svg class="wave" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 60V30C240 0 480 0 720 25s480 30 720 5v30z" fill="currentColor"/></svg></section>
+<section class="sec"><div class="wrap"><div class="blog-tools"><div class="search"><i data-i="search"></i><input id="bq" type="search" placeholder="Search articles by title, topic or author" aria-label="Search articles"></div><div class="filter chips" role="group" aria-label="Filter articles by category"><button class="tag on" data-c="all">All <small>9</small></button><button class="tag" data-c="Guide">Guide <small>2</small></button><button class="tag" data-c="Rewards">Rewards <small>1</small></button><button class="tag" data-c="Recycling">Recycling <small>2</small></button><button class="tag" data-c="Tips">Tips <small>2</small></button><button class="tag" data-c="Stories">Stories <small>2</small></button></div></div><p class="blog-count" id="bc" aria-live="polite"></p><div class="svc-grid"><article class="card svc blog-card" data-post="Guide"><div class="svc-img"><img src="https://images.unsplash.com/photo-1761807299731-da9bbef44b77?auto=format&fit=crop&w=900&q=70" alt="Sorting 101: what goes in which bin" loading="lazy"><span class="tag">Guide</span></div><div class="body"><h3>Sorting 101: what goes in which bin</h3><p>A simple three-bin system that keeps recyclables clean and cuts what reaches landfill.</p><div class="post-meta"><img src="https://images.unsplash.com/photo-1627161683077-e34782c24d81?auto=format&fit=crop&w=120&crop=faces&q=70" alt="Anita Rao" loading="lazy"><div><b>Anita Rao</b><span>12 Sep 2026</span></div></div><a class="rm" href="blog-details.html?p=sorting-101">Read article <i data-i="arrow"></i></a></div></article><article class="card svc blog-card" data-post="Rewards"><div class="svc-img"><img src="https://images.unsplash.com/photo-1722482445685-91a6b17d5d02?auto=format&fit=crop&w=900&q=70" alt="How eco-points are calculated" loading="lazy"><span class="tag">Rewards</span></div><div class="body"><h3>How eco-points are calculated</h3><p>See how material type and verified weight turn into points you can redeem on bills.</p><div class="post-meta"><img src="https://images.unsplash.com/photo-1576558656222-ba66febe3dec?auto=format&fit=crop&w=120&crop=faces&q=70" alt="Karthik Subramanian" loading="lazy"><div><b>Karthik Subramanian</b><span>5 Sep 2026</span></div></div><a class="rm" href="blog-details.html?p=eco-points-explained">Read article <i data-i="arrow"></i></a></div></article><article class="card svc blog-card" data-post="Recycling"><div class="svc-img"><img src="https://images.unsplash.com/photo-1767340078189-4258fbb7bd7c?auto=format&fit=crop&w=900&q=70" alt="What happens to your e-waste" loading="lazy"><span class="tag">Recycling</span></div><div class="body"><h3>What happens to your e-waste</h3><p>Follow an old phone from your doorstep to an authorised dismantling plant.</p><div class="post-meta"><img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=120&crop=faces&q=70" alt="Lakshmi Iyer" loading="lazy"><div><b>Lakshmi Iyer</b><span>28 Aug 2026</span></div></div><a class="rm" href="blog-details.html?p=e-waste-journey">Read article <i data-i="arrow"></i></a></div></article><article class="card svc blog-card" data-post="Tips"><div class="svc-img"><img src="https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?auto=format&fit=crop&w=900&q=70" alt="Composting kitchen scraps at home" loading="lazy"><span class="tag">Tips</span></div><div class="body"><h3>Composting kitchen scraps at home</h3><p>Start a small compost routine with what is already in your kitchen bin.</p><div class="post-meta"><img src="https://images.unsplash.com/photo-1627161683077-e34782c24d81?auto=format&fit=crop&w=120&crop=faces&q=70" alt="Anita Rao" loading="lazy"><div><b>Anita Rao</b><span>20 Aug 2026</span></div></div><a class="rm" href="blog-details.html?p=composting-at-home">Read article <i data-i="arrow"></i></a></div></article><article class="card svc blog-card" data-post="Stories"><div class="svc-img"><img src="https://images.unsplash.com/photo-1773852184074-e7ecb1dd3665?auto=format&fit=crop&w=900&q=70" alt="A day with a collection crew" loading="lazy"><span class="tag">Stories</span></div><div class="body"><h3>A day with a collection crew</h3><p>Ride along with one of our crews and see how a route runs from 6 am.</p><div class="post-meta"><img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=120&crop=faces&q=70" alt="Arun Kumar" loading="lazy"><div><b>Arun Kumar</b><span>14 Aug 2026</span></div></div><a class="rm" href="blog-details.html?p=day-with-a-crew">Read article <i data-i="arrow"></i></a></div></article><article class="card svc blog-card" data-post="Guide"><div class="svc-img"><img src="https://images.unsplash.com/photo-1653406384710-08688ec6b979?auto=format&fit=crop&w=900&q=70" alt="Plastic codes explained" loading="lazy"><span class="tag">Guide</span></div><div class="body"><h3>Plastic codes explained</h3><p>What the numbers inside the triangle mean and which plastics we can recycle.</p><div class="post-meta"><img src="https://images.unsplash.com/photo-1627161683077-e34782c24d81?auto=format&fit=crop&w=120&crop=faces&q=70" alt="Anita Rao" loading="lazy"><div><b>Anita Rao</b><span>6 Aug 2026</span></div></div><a class="rm" href="blog-details.html?p=plastic-codes">Read article <i data-i="arrow"></i></a></div></article><article class="card svc blog-card" data-post="Tips"><div class="svc-img"><img src="https://images.unsplash.com/photo-1762608676460-5fd5aafa5ce1?auto=format&fit=crop&w=900&q=70" alt="Clearing renovation waste responsibly" loading="lazy"><span class="tag">Tips</span></div><div class="body"><h3>Clearing renovation waste responsibly</h3><p>Plan skips, separate materials and keep your site safe during a home renovation.</p><div class="post-meta"><img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=120&crop=faces&q=70" alt="Arun Kumar" loading="lazy"><div><b>Arun Kumar</b><span>30 Jul 2026</span></div></div><a class="rm" href="blog-details.html?p=renovation-waste">Read article <i data-i="arrow"></i></a></div></article><article class="card svc blog-card" data-post="Recycling"><div class="svc-img"><img src="https://images.unsplash.com/photo-1785900976828-9d67c8b24134?auto=format&fit=crop&w=900&q=70" alt="Scrap metal: what is it really worth?" loading="lazy"><span class="tag">Recycling</span></div><div class="body"><h3>Scrap metal: what is it really worth?</h3><p>How scrap rates work and how to get a fair price for old metal.</p><div class="post-meta"><img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=120&crop=faces&q=70" alt="Lakshmi Iyer" loading="lazy"><div><b>Lakshmi Iyer</b><span>22 Jul 2026</span></div></div><a class="rm" href="blog-details.html?p=scrap-metal-value">Read article <i data-i="arrow"></i></a></div></article><article class="card svc blog-card" data-post="Stories"><div class="svc-img"><img src="https://images.unsplash.com/photo-1783047531682-cce046b474a7?auto=format&fit=crop&w=900&q=70" alt="Furniture that finds a second home" loading="lazy"><span class="tag">Stories</span></div><div class="body"><h3>Furniture that finds a second home</h3><p>Our bulk crew shares how donated sofas and wardrobes reach local families.</p><div class="post-meta"><img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=120&crop=faces&q=70" alt="Arun Kumar" loading="lazy"><div><b>Arun Kumar</b><span>15 Jul 2026</span></div></div><a class="rm" href="blog-details.html?p=furniture-second-home">Read article <i data-i="arrow"></i></a></div></article></div><p class="empty" id="be" hidden>No articles match your search. Try a different word or category.</p></div></section></main><div id="ftr"></div><script src="js/main.js"></script><script src="js/blog.js"></script></body></html>
